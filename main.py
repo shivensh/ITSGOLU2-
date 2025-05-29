@@ -105,11 +105,11 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/GOLU0") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/ITSGOLU0") ],
                     [
-                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/GOLU0") ],
+                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/ITSGOLU0") ],
                     [
-                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/GOLU0")                              
+                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/ITSGOLU0")                              
                 ],           
             ]
       )
@@ -161,13 +161,13 @@ async def list_users(client: Client, msg: Message):
 @bot.on_message(filters.command("help"))
 async def help_command(client: Client, msg: Message):
     help_text = (
-        "/start` - Start the bot⚡\n\n"
-        "/GOLU` - Download and upload files (sudo)🎬\n\n"
-        "/restart` - Restart the bot🔮\n\n" 
-        "/stop` - Stop ongoing process🛑\n\n"
-        "/sudo add` - Add user or group or channel (owner)🎊\n\n"
-        "/sudo remove` - Remove user or group or channel (owner)❌\n\n"
-        "/userlist` - List of sudo user or group or channel📜\n\n"  
+        "`/start` - Start the bot⚡\n\n"
+        "`/GOLU` - Download and upload files (sudo)🎬\n\n"
+        "`/restart` - Restart the bot🔮\n\n" 
+        "`/stop` - Stop ongoing process🛑\n\n"
+        "`/sudo add` - Add user or group or channel (owner)🎊\n\n"
+        "`/sudo remove` - Remove user or group or channel (owner)❌\n\n"
+        "`/userlist` - List of sudo user or group or channel📜\n\n"  
     )
     await msg.reply_text(help_text)
 
