@@ -7,20 +7,20 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/hackercoder24/updatetxt2vid",
+    "repository": "https://github.com/shivensh/itsgolu2-",
     "success_url": "https://telegram.me/diljalechatsherebot",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "23615498",
+            "description": "2695501",
             "required": true
         },
         "API_HASH": {
-            "description": "d53f389b7da84adc7c8518495117f556",
+            "description": "9a544068ea55f54ca7725245d0e8f0f9",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "7976143213:AAF3qyxP8n-MUH8r7xKLbdPHcRvhzMLXclc",
+            "description": "7702148303:AAEOlqyIeyKeRWGpuuFroWyoTNplgCwnop8",
             "required": true
         }
     },
