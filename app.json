@@ -1,14 +1,14 @@
 {
-    "name": "𝐓𝐞𝐱𝐭 Uploader 𝐃𝐈𝐋𝐉𝐀𝐋𝐄  ™",
+    "name": "𝐈𝐓'𝐬𝐆𝐎𝐋𝐔.™®❤️",
     "description": "Download videos from various websites using this telegram bot",
-    "logo": "https://envs.sh/srE.jpg",
+    "logo": "https://i.ibb.co/0RpjC988/photo-2022-01-27-00-29-02.jpg",
     "keywords": [
         "text-video",
         "video-extract",
         "pyrogram"
     ],
     "repository": "https://github.com/shivensh/itsgolu2-",
-    "success_url": "https://telegram.me/diljalechatsherebot",
+    "success_url": "https://telegram.me/ITSGOLU0",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -27,13 +27,13 @@
     "addons": [],
     "buildpacks": [
         {
-            "url": "https://github.com/amivin/aria2-heroku.git"
+            "url": "https://github.com/shivensh/aria2-heroku-.git"
         },
         {
             "url": "heroku/python"
         },       
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+            "url": "https://github.com/shivensh/heroku-buildpack-ffmpeg-latest-master-.git"
         }
     ]
     }
